@@ -1,10 +1,10 @@
-# E-Commerce Project
+# E-Commerce Project/clothes-collection
 
 **Student Name**: Shriom Patel
-
+**student Number**: 8982301
 **Student Number**: spatel2301@conestogac.on.ca
-
 **Date**: 07/19/2024
+
 
 ### Technology Stack
 
