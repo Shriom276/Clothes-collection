@@ -1,7 +1,9 @@
 # E-Commerce Project
 
 **Student Name**: Shriom Patel
+
 **Student Number**: spatel2301@conestogac.on.ca
+
 **Date**: 07/19/2024
 
 ### Technology Stack
