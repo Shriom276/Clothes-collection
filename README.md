@@ -12,7 +12,9 @@
 ### Technology Stack
 
  **Frontend**: ReactJS
+
  **Backend**: Node.js with Express
+ 
  **Database**: MongoDB (Atlas)
 
 ### Project Setup
