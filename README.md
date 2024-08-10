@@ -47,6 +47,19 @@
 - The project is set up using Git and GitHub for version control.
 - Further development will include implementing user interfaces for product listings, shopping cart, and checkout, along with the admin area for product management.
 
+###  Week 2
+ -'Install Node Modules': In order for the project to function, make sure that the required Node.js modules are installed.
+
+ -'Install Required Dependencies': To make sure the project works properly, run the command to install all necessary dependencies.
+
+ **Launch the front-end program**
+  - Open the "frontend" folder.
+  - Launch this folder's integrated terminal, and use command: npm start to run frontend.
+
+ **Launch Backend Application**
+  - Open the "backend" folder.
+  - Launch this folder's integrated terminal, and use command: node app.js to run backend.
+
 ### Week 3
 
  **Checkout Process**
