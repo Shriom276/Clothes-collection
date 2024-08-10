@@ -46,3 +46,17 @@
 ### Notes
 - The project is set up using Git and GitHub for version control.
 - Further development will include implementing user interfaces for product listings, shopping cart, and checkout, along with the admin area for product management.
+
+### Week 3
+
+ **Checkout Process**
+ -Checkout Form: Captures user information during checkout.
+ -Order Summary: Displays selected products, quantities, and total price.
+
+ **Admin Dashboard**
+ - Admin Login: Implemented a login for Admin access, restricting regular users.
+ - CRUD Operations:
+ - Create: Added functionality to create new products and categories.
+ - Read: Implemented listing of products and categories.
+ - Update: Enabled updating existing products and categories.
+ - Delete: Allowed deletion of products and categories.

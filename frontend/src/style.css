@@ -1,0 +1,303 @@
+
+.categories {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .categories button {
+    margin: 0 10px;
+    padding: 10px 20px;
+    background-color: #f0f0f0;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .categories button:hover {
+    background-color: #ddd;
+  }
+  
+  .products {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .product-card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+  }
+  
+  .product-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+  
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+  }
+  
+  .nav-logo {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+  
+  .nav-links li {
+    font-size: 18px;
+  }
+  
+  .nav-cart {
+    color: white;
+    text-decoration: none;
+    position: relative;
+  }
+  
+  .nav-cart::after {
+    content: attr(data-count);
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background-color: red;
+    color: white;
+    border-radius: 50%;
+    padding: 2px 6px;
+    font-size: 12px;
+  }
+  
+.product-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+    background-color: #fff;
+    margin: 20px;
+    padding: 20px;
+    max-width: 300px;
+    box-sizing: border-box;
+}
+
+/* Add a hover effect for the card */
+.product-card:hover {
+    transform: translateY(-5px);
+}
+
+/* Style for the product image */
+.product-image {
+    width: 100%;
+    height: auto;
+    border-bottom: 1px solid #e0e0e0;
+    margin-bottom: 15px;
+}
+
+/* Style for the product name */
+.product-card h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin: 0 0 10px 0;
+}
+
+/* Style for the product description */
+.product-card p {
+    color: #777;
+    font-size: 1em;
+    margin: 0 0 10px 0;
+}
+
+/* Style for the price */
+.product-card p:last-child {
+    font-weight: bold;
+    color: #333;
+}
+
+/* Style for the Buy Now button */
+.product-card button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+}
+
+/* Hover effect for the Buy Now button */
+.product-card button:hover {
+    background-color: #0056b3;
+}
+
+/* General layout for the products */
+.products {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+/* Style for the home container */
+.home {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+}
+
+/* Style for the page heading */
+.home h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* General container styles */
+.cart {
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Shopping Cart Title */
+.cart h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+/* General product card style */
+.cart-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    padding: 15px;
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    background-color: #fff;
+}
+
+/* Image styling */
+.cart-item img {
+    width: 150px;
+    height: auto;
+    border-radius: 8px;
+    margin-right: 20px;
+}
+
+/* Cart item details */
+.cart-item h3 {
+    font-size: 1.4em;
+    margin: 0;
+    color: #333;
+}
+
+.cart-item p {
+    margin: 10px 0;
+    color: #555;
+    font-size: 1.1em;
+}
+
+/* Quantity input styling */
+.cart-item input[type="number"] {
+    width: 60px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 1em;
+}
+
+/* Button styling */
+.cart-item button, .cart .place-order-btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.3s ease;
+    margin: 5px;
+}
+
+/* Button hover effect */
+.cart-item button:hover, .cart .place-order-btn:hover {
+    background-color: #45a049;
+}
+
+/* Remove button specific styles */
+.cart-item .remove-btn {
+    background-color: #ff4d4d;
+}
+
+/* Remove button hover effect */
+.cart-item .remove-btn:hover {
+    background-color: #ff1a1a;
+}
+
+/* Place Order button specific styles */
+.cart .place-order-btn {
+    margin-top: 20px;
+    padding: 12px 20px;
+    width: 100%;
+    font-weight: bold;
+}
+/* General button styling */
+button {
+    font-family: Arial, sans-serif;
+    font-size: 1.1em;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+/* Specific styling for the Place Order button */
+.cart .place-order-btn {
+    background-color: #ff6600;
+    color: white; 
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 15px 30px;
+    width: 100%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for the Place Order button */
+.cart .place-order-btn:hover {
+    background-color: #e65c00; 
+    transform: scale(1.05);
+}
+
+/* Focus effect for better accessibility */
+.cart .place-order-btn:focus {
+    outline: none;
+    box-shadow: 0 0 10px rgba(255, 102, 0, 0.5); 
+}
+
