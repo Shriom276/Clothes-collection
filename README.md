@@ -73,3 +73,11 @@
  - Read: Implemented listing of products and categories.
  - Update: Enabled updating existing products and categories.
  - Delete: Allowed deletion of products and categories.
+
+ ### Week 4
+
+ step 1: Install Node Modules
+ step 2: Install Required Dependencies
+ step 3: Right click on the frontend folder and open integrated terminal and  give command in terminal "npm start".
+
+step 4:  Right click on the backend folder and open integrated terminal and give command in terminal "node server.js"."
